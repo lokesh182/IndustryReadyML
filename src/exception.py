@@ -1,5 +1,5 @@
 import sys #can be used to get the type, value, and traceback of the exception
-from logger import logger #logger is for the purpose of logging all the information about the execution
+from src.logger import logging #logger is for the purpose of logging all the information about the execution
 import logging
 def error_message_detail(error,error_detail:sys):
     '''
