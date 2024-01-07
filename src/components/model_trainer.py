@@ -120,6 +120,6 @@ class ModelTrainer:
 
         except  Exception as e:
             raise customException(e,sys)
-            pass
+          
 
 
