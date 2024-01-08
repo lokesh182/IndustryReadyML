@@ -1,8 +1,8 @@
-# StudentMarksPredictor 🎓📊
+# 1 StudentMarksPredictor 🎓📊
 
 Welcome to the StudentMarksPredictor project! This end-to-end machine learning solution is designed to predict students' marks based on various features. Whether you're a developer, data scientist, or educator, this tool empowers you to analyze and predict student performance effectively.
 
-## Overview 🚀
+## 1.1 Overview 🚀
 
 StudentMarksPredictor is structured into well-defined modules, ensuring a seamless workflow from data ingestion to model prediction. The following modules are implemented:
 
@@ -12,7 +12,7 @@ StudentMarksPredictor is structured into well-defined modules, ensuring a seamle
 4. **Evaluation 📈:** Assess the model's performance using relevant metrics.
 5. **Prediction 🎯:** Make predictions on new data with the trained model.
 
-## Getting Started 🛠️
+## 1.2 Getting Started 🛠️
 
 Follow these steps to get started with the StudentMarksPredictor project:
 
@@ -26,9 +26,9 @@ Follow these steps to get started with the StudentMarksPredictor project:
    pip install -r requirements.txt
 
 3. **Data Ingestion,Transformation,Model Trainer,Evaluation:**
-Provide your dataset in the specified format. Use the data_ingestion.py script for importing data
-Here data ingestion.py will do all the work for you i.e(Transformation,Model Trainer,Evaluation) 
-delete the artifacts folder then execute app.py.After executing data_ingestion.py artifacts folder get created in artifacts model.pkl and preprocessor.pkl,train and test data is also created,O/P of data_ingestion.py gives you accuracy for best selected model for the project we have also integrated all the pipelines in data ingestion file only ,all you have to only start the data_ingestion then boom! all the work will be done.
+Provide your dataset in the specified format. Use the data_ingestion.py script for importing data Here data_ingestion.py will do all the work for you i.e(Transformation,Model Trainer,Evaluation) delete the artifacts folder then execute app.py.After executing data_ingestion.py artifacts folder get created in artifacts model.pkl and preprocessor.pkl,train and test data is also created,O/P of data_ingestion.py 
+gives you accuracy for best selected model for the project we have also integrated all the pipelines in 
+data ingestion file only ,all you have to only start the data_ingestion then boom! all the work will be done.
  Example:
     ```bash
     python data_ingestion.py
