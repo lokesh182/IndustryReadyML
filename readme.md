@@ -68,7 +68,7 @@ Follow these steps to deploy the Student Marks Predictor as a web app on Azure u
  
 
 5. **Conclusion:**
-     This project help me to gain knowledge about how industry standards are followed when implementing the realtime machine learning projects , come to know about modular programing which helps to manage the coding neatly and follows clean directory structure 
+     This project help me to gain knowledge about how industry standards are followed when implementing the realtime machine learning projects , come to know about modular programming which helps to manage the coding neatly and follows clean directory structure 
 
       Happy coding! 🚀
 
