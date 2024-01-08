@@ -28,7 +28,7 @@ Follow these steps to get started with the StudentMarksPredictor project:
 3. **Data Ingestion,Transformation,Model Trainer,Evaluation:**
 Provide your dataset in the specified format. Use the data_ingestion.py script for importing data
 Here data ingestion.py will do all the work for you i.e(Transformation,Model Trainer,Evaluation) 
-delete the artifacts folder then execute app.py.After executing app.py artifacts folder get created in artifacts model.pkl and preprocessor.pkl,train and test data is also created and  is generated,O/P of data_ingestion.py gives you accuracy for best selected model for the project we have also integrated all the pipelines in data ingestion file only ,you have to all start the data ingestion all the work will be done then.
+delete the artifacts folder then execute app.py.After executing data_ingestion.py artifacts folder get created in artifacts model.pkl and preprocessor.pkl,train and test data is also created,O/P of data_ingestion.py gives you accuracy for best selected model for the project we have also integrated all the pipelines in data ingestion file only ,all you have to only start the data_ingestion then boom! all the work will be done.
  Example:
     ```bash
     python data_ingestion.py
