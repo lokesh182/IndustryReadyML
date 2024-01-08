@@ -18,7 +18,7 @@ Follow these steps to get started with the StudentMarksPredictor project:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/StudentMarksPredictor.git
+   git clone https://github.com/your-username/StudentMarksPredictor1.git
    cd StudentMarksPredictor
 
 2. **Install Dependencies:**
