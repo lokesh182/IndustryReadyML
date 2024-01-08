@@ -26,9 +26,9 @@ Follow these steps to get started with the StudentMarksPredictor project:
    pip install -r requirements.txt
 
 3. **Data Ingestion,Transformation,Model Trainer,Evaluation:**
-Provide your dataset in the specified format. Use the data_ingestion.py script for importing data Here data_ingestion.py will do all the work for you i.e(Transformation,Model Trainer,Evaluation) delete the artifacts folder then execute app.py.After executing data_ingestion.py artifacts folder get created in artifacts model.pkl and preprocessor.pkl,train and test data is also created,O/P of data_ingestion.py 
-gives you accuracy for best selected model for the project we have also integrated all the pipelines in 
-data ingestion file only ,all you have to only start the data_ingestion then boom! all the work will be done.
+ Provide your dataset in the specified format. Use the data_ingestion.py script for importing data Here data_ingestion.py will do all the work for you i.e(Transformation,Model Trainer,Evaluation) delete the artifacts folder then execute app.py.After executing data_ingestion.py artifacts folder get created in artifacts model.pkl and preprocessor.pkl,train and test data is also created,O/P of data_ingestion.py 
+ gives you accuracy for best selected model for the project we have also integrated all the pipelines in 
+ data ingestion file only ,all you have to only start the data_ingestion then boom! all the work will be done.
  Example:
     ```bash
     python data_ingestion.py
@@ -36,38 +36,38 @@ data ingestion file only ,all you have to only start the data_ingestion then boo
     python app.py #To run flask application locally 
 
 
-4. **🚀 Deployment on Azure Web App (UI Approach):**
+# 2 **🚀 Deployment on Azure Web App (UI Approach):**
 Follow these steps to deploy the Student Marks Predictor as a web app on Azure using the Azure Portal:
-- 4.1 create azure account
-- 4.2 Sign in to Azure Portal Visit the [Azure Portal](https://portal.azure.com/) and sign in with your Azure account.
-- 4.3. Create a New Azure Web App
+- 2.1 create azure account
+- 2.2 Sign in to Azure Portal Visit the [Azure Portal](https://portal.azure.com/) and sign in with your Azure account.
+- 2.3. Create a New Azure Web App
     -  Navigate to the "Create a resource" page.
     - Search for "Web App" and select "Web App" from the list.
     - Click on the "Create" button.
     - Fill in the required information such as App name, Subscription, Resource Group, and OS.
     - Click "Review + create" and then "Create" to create the web app.
-- 4.4  Deploy Your Model
+- 2.4  Deploy Your Model
     - Navigate to the "Deployment Center" in the Azure Portal.
     - Choose the deployment method based on your project (e.g., GitHub, Azure DevOps, Local Git).
     -  Configure the deployment settings, including repository and branch information.
-- 4.5. Access the Web App URL
+- 2.5. Access the Web App URL
 
     - Once the deployment is complete, navigate to the "Overview" page of your web app.
     - Find the URL under the "URL" section. This is the endpoint where your web app is hosted.
 
-- 4.6. Configure Environment Variables
+- 2.6. Configure Environment Variables
 
     - Navigate to the "Configuration" or "Application settings" section in the Azure Portal.
     - Set any required environment variables (e.g., API keys, connection strings) for your application.
 
-- 4.7. Monitor and Troubleshoot
+- 2.7. Monitor and Troubleshoot
 
     - Use the Azure Portal to monitor your web app's performance.
     - In case of issues, check the "Logs" or "Diagnose and solve problems" sections for troubleshooting.
 
  
 
-5. **Conclusion:**
+# 3. **Conclusion:**
      This project help me to gain knowledge about how industry standards are followed when implementing the realtime machine learning projects , come to know about modular programming which helps to manage the coding neatly and follows clean directory structure 
 
       Happy coding! 🚀
