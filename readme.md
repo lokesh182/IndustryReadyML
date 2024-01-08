@@ -33,6 +33,8 @@ delete the artifacts folder then execute app.py.After executing app.py artifacts
     ```bash
     python data_ingestion.py
 
+    python app.py #To run flask application locally 
+
 
 4. **🚀 Deployment on Azure Web App (UI Approach):**
 Follow these steps to deploy the Student Marks Predictor as a web app on Azure using the Azure Portal:
